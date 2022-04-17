@@ -1,0 +1,21 @@
+# WallC
+A bash Script for generating an .xml file which contains the location of two images for dark and light mode in gnome 42+ 
+
+### Usage:
+Run the commands given below in a terminal :
+
+```bash
+git clone https://github.com/suchinton/WallC.git 
+cd WallC/
+bash ./cw.sh 
+```
+
+### Troubleshoot:
+if you get an error saying 
+
+`"mv: cannot move 'name.xml' to '/usr/share/gnome-background-properties/': Not a directory"`
+
+just run the commands below
+```bash
+sudo mkdir /usr/share/gnome-background-properties/ 
+```
