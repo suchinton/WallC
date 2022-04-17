@@ -33,4 +33,6 @@ echo "" > $name.xml
 echo "$content0" > $name.xml
 echo "$content1" >> $name.xml
 
-sudo <<< "echo $(zenity --password)" mv $name.xml /usr/share/gnome-background-properties/ 
+sudo <<< "echo $(zenity --password --title "Authentication")" mv $name.xml /usr/share/gnome-background-properties/ 
+
+zenity --notification --text "New Wallpaper has been Added!"
