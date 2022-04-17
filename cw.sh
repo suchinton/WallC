@@ -1,16 +1,17 @@
 #!/bin/bash/
-clear
-
 echo '
 Script for making a .xml file for gnome wallpapers (42+)
 '
 name=$(zenity --entry --text "Please enter file name");
 
-Light_wp=$(zenity --file-selection --filename ~/wallpapers/all\ walls/ --title="Pick Light Wallpaper")
-Dark_wp=$(zenity --file-selection --filename ~/wallpapers/all\ walls/ --title="Pick Dark Wallpaper")
+#uncomment lines below if you want to specify the default directory for imges, replace <location>
+#with dir path  
 
-#Light_wp=$(zenity --file-selection --title="Pick Light Wallpaper")
-#Dark_wp=$(zenity --file-selection --title="Pick Dark Wallpaper")
+#Light_wp=$(zenity --file-selection --filename <location> --title="Pick Light Wallpaper")
+#Dark_wp=$(zenity --file-selection --filename <location> --title="Pick Dark Wallpaper")
+
+Light_wp=$(zenity --file-selection --title="Pick Light Wallpaper")
+Dark_wp=$(zenity --file-selection --title="Pick Dark Wallpaper")
 
 touch $name.xml
 
