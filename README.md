@@ -1,5 +1,5 @@
 # WallC
-A bash Script for generating an .xml file which contains the location of two images for dark and light mode in gnome 42+ 
+A bash Script for generating an .xml file which contains the location of two images for Light and Dark mode in gnome 42+ 
 
 ### Usage:
 Run the commands given below in a terminal :
