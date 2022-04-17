@@ -19,3 +19,4 @@ just run the commands below
 ```bash
 sudo mkdir /usr/share/gnome-background-properties/ 
 ```
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75079303/163714680-1ba69b92-f1c4-4562-923f-fc782def47ae.gif)
