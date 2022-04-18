@@ -4,8 +4,8 @@ Script for making a .xml file for gnome wallpapers (42+)
 '
 name=$(zenity --entry --text "Please enter file name");
 
-#uncomment lines below if you want to specify the default directory for imges, replace <location>
-#with dir path  
+# Un-comment lines below (10, 11) if you want to specify the default directory for imges, replace <location>
+# with dir path and don't forget to comment line number 13 and 14
 
 #Light_wp=$(zenity --file-selection --filename <location> --title="Pick Light Wallpaper")
 #Dark_wp=$(zenity --file-selection --filename <location> --title="Pick Dark Wallpaper")
